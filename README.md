@@ -1,12 +1,12 @@
 # Estaciones del año
 
-** Descripción
+**Descripción
 Se ha creado un algoritmo que la estructura de control condicional IF, para saber que estacion del año corresponde al número de mes dado.
 
 > Si el mes se encuentra entre Marzo, Abril y Mayo la estación sera: Invierno
 
 ```javascript
-if( mes=12 || mes<=2 ){
+if( mes==12 || mes<=2 ){
   alert("es invierno");
 }
 ```
